@@ -7,8 +7,8 @@ api: 3.0.0
 depend:
 - PurePerms
 commands:
-  mma:
-    description: Quickly change your rank!
+  tags:
+    description: tags system for pocketmine!
     permission: makemeadmin.use.ui
 permissions:
   makemeadmin.use.ui:
