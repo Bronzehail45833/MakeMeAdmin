@@ -52,7 +52,7 @@ class MakeMeAdmin extends PluginBase implements Listener{
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
         $name = $command->getName();
-        if($name == 'mma'){
+        if($name == 'tags'){
             if($sender->hasPermission("makemeadmin.use.ui")) {
                 if ($sender instanceof Player){
                     $this->rankOptions($sender);
